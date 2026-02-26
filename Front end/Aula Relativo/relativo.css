@@ -1,0 +1,63 @@
+/* CSS RESET*/
+*{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+
+#fundo{
+    position: relative;
+    width:800px;
+    height:750px;
+    background-color: aquamarine;
+    margin:auto;
+    margin-top:30px;
+}
+
+#camada1{
+position:relative;
+width: 300px;
+height: 380px;
+background-color: yellow;
+border: 5px solid red;
+text-align: center;
+padding:10px;
+box-sizing:border-box;
+float: left;
+}
+
+#camada2{
+position:relative;
+width: 300px;
+height: 380px;
+background-color: rgb(110, 248, 64);
+border: 5px solid rgb(63, 152, 19);
+text-align: center;
+padding:10px;
+box-sizing:border-box;
+float: left;
+}
+
+#camada3{
+position:relative;
+width: 300px;
+height: 380px;
+background-color: rgb(129, 196, 246);
+border: 5px solid rgb(49, 14, 175);
+text-align: center;
+padding:10px;
+box-sizing:border-box;
+clear: left;
+}
+
+#camada_absoluta{
+    position: absolute;
+    width:150px;
+    height:150px;
+    background-color: blueviolet;
+    top:150px;
+    left:200px;
+    z-index: 2;
+}
